@@ -23,7 +23,7 @@
 							<div class="inner-slide"> 
 							<img src="http://honduras.travel/sites/default/files/destinos/lago.jpg" alt="">
 							<div class="fullwidth-title">
-								<a href="http://honduras.travel/lagodeyojoa" class="blu" ><strong><?php print t("Yojoa Lake") ?></strong></a>
+								<a href="http://honduras.travel/lagodeyojoa" class="blu" ><strong><?php print t("Yojoa's Lake") ?></strong></a>
 								<span><?php print t("With the skyline surrounded by land, halfway between the two oceans, cloud forests enliven trills") ?>.</span>
 							</div>
 							</div>
