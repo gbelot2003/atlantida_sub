@@ -1,0 +1,82 @@
+/**
+ * Update styles
+ */
+
+html {
+	background:rgb(58, 93, 1);
+}
+
+.maintenance {
+	background:url("http://honduras.travel/sites/default/files/logos/bg_uconstruction.jpg") top center repeat;
+	min-height:720px;
+}
+
+.maintenance #logo-title {
+	text-align: center;	
+}
+
+.maintenance #page-title {
+	color:red;
+	text-align:center;
+}
+
+.maintenance #content-content {
+	text-align:center;
+	background: rgba(255,255,255,0.5);
+	padding: 5rem;
+	font-size: 1.6rem;
+}
+
+
+#update-results {
+  margin-top: 3em;
+  padding: 0.25em;
+  border: 1px solid #ccc;
+  background: #eee;
+  font-size: smaller;
+}
+#update-results h2 {
+  margin-top: 0.25em;
+  color:red;
+}
+#update-results h4 {
+  margin-bottom: 0.25em;
+}
+#update-results li.none {
+  color: #888;
+  font-style: italic;
+}
+#update-results li.failure strong {
+  color: #b63300;
+}
+
+/**
+ * Authorize.php styles
+ */
+.connection-settings-update-filetransfer-default-wrapper {
+  float: left;
+}
+#edit-submit-connection {
+  clear: both;
+}
+.filetransfer {
+  display: none;
+  clear: both;
+}
+#edit-connection-settings-change-connection-type {
+  margin: 2.6em 0.5em 0em 1em;
+}
+
+/**
+ * Installation task list
+ */
+ol.task-list li.active {
+  font-weight: bold;
+}
+
+/**
+ * Installation clean URLs
+ */
+#clean-url.install {
+  display: none;
+}

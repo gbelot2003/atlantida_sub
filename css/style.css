@@ -1,0 +1,1842 @@
+/**********************************************
+ * 
+ * Put your custom CSS code here
+ *
+ * **************************************** Portal Atlantida*****************************
+ * 
+ */
+
+/***********************************************
+* Colores principales de portales
+*  
+*
+	Atlantida = background:rgb(0,177,211);
+	Islas = background:rgb(239, 198, 68);
+	Lago  = background:rgb(0,157, 224);
+	occidente = background:rgb(204, 124, 26);
+	Otros = background:rgb(118, 152, 153);
+	San Pedro = background:rgb(177, 99,159);
+	Tegucigalpa = background:rgb(89,115,3);
+*
+*
+/***********************************************/
+@import url("../fonts/fuentes.css");
+@import url("../fonts/style.css");
+/**************** changes **********************/
+
+
+.header-top {
+	background:rgb(0,177,211) !important;
+} 
+
+.titlebar {
+	background:rgb(0,177,211) !important;
+}
+
+.titlebar .title {
+	color:#fff;
+}
+
+.page-subtitle {
+	
+}
+
+.social-icons.accent li i {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.social-icons.accent li i:hover {
+	border: 1px solid #aaa;
+	color: #aaa;
+}
+
+.fullwidth-slider .es-navigation a {
+	
+}
+
+.fullwidth-slider .es-navigation a:hover{
+	background:rgb(0,177,211) !important;
+}
+
+.view-eventos-y-festividades .dates, .page-taxonomy .dates {
+	background:rgba(0,177,211, 0.5) !important;
+}
+
+.block-views-relaciones-block {
+	/***** esta tiene rgba ***/
+	background:rgba(0,177,211, 0.5) !important;
+}
+
+.field-name-share {
+	rgba(0,177,211,0.5) !important
+}
+
+.explora {
+	/* color: #ff9e00; //defecto */
+}
+
+.portal {
+	color:rgb(0,177,211);
+	/*Color del portal*/
+}
+
+.guara {
+	color: rgb(0,177,211) !important;
+	/*color del portal lleva imagen de HondurasGuara*/
+}
+
+.block-views-relaciones-block {
+	background:rgba(0,177,211, 0.5) !important;
+}
+
+
+/***********************************************************************************************/
+
+.canaturh {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') center left ;
+}
+
+.iht {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') -100px -12px;
+}
+
+.usaid {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -200px -62px;
+}
+
+.nwt {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -200px -5px;
+}
+
+.patrocinador {
+	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -400px -5px;
+}
+
+
+/**********************************************/
+#status {
+	background-image: url("../images/loader-main.gif");
+	position: fixed;
+}
+
+.front .block {
+	padding: 0;
+}
+
+.front .titlebar {
+	display:none;
+}
+
+.page {
+	background: url("../images/bg_parrot.jpg") no-repeat top center fixed;
+}
+
+.l-featured, .l-main {
+	background-color:rgb(255,255,255);
+}
+
+
+button:hover, button:focus, .button:hover, .button:focus, .button.dark, button.dark,
+button, .button {
+	background:rgb(1,92,223);
+	border-color: rgb(223,132,1);
+}
+
+.header-top {
+	background:rgb(35, 166, 174);
+} 
+
+a {
+	color:black;
+}
+
+
+a:hover {
+	color:#FF751A ;
+}
+
+p {
+	font-weight: 300;
+}
+
+fieldset {
+	margin-top: 0;
+}
+
+
+.top-bar .name h1 a {
+	display: inline-block;
+	height: 0px;
+	overflow: hidden;
+	padding-top: 90px;
+	background: url("../images/logo2.png") no-repeat;
+}
+
+.titlebar {
+	margin-bottom: 0.8rem;
+}
+
+.breadcrumbs, .breadcrumbs a, .breadcrumbs>.current a{
+	color: white;
+}
+
+.bodytext p {
+ 	text-align: justify !important;
+ 	padding: 15px;
+ 	color: white;
+}
+
+.block {
+	padding: 10px 5px;
+}
+ 
+
+/***********************************/
+
+.node-type-blog .block-title {
+	font-family: Hondurean;
+	font-size: 2.3rem;
+	color: #FF751A;
+}
+
+.field-name-share {
+	background: rgb(216, 239, 253);
+	padding: 10px 5px;
+	margin-bottom: 0.8rem;
+}
+
+.field-name-field-redes-sociales li {
+	list-style: none;
+}
+
+.field-name-field-redes-sociales img {
+	padding-left: 0.5rem;
+}
+
+.field-name-blogs-relaciondaos {
+	padding-left: 8px;
+}
+
+.field-name-blogs-relaciondaos li {
+	list-style: circle;
+}
+
+.node-type-blog .field-name-post-date {
+	color: #808080;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.node-type-blog .group-left {
+	padding-left: 2.5rem;
+}
+
+.node-type-blog .group-right {
+	padding-right: 3.5rem;
+}
+
+.field-name-blogs-relaciondaos li {
+	display: inline;
+	float: left;
+}
+
+.field-name-blogs-relaciondaos li a, .view-display-id-block_1 li a {
+	background:url("../images/arrow.gif") no-repeat top left;
+	display: block;
+	padding-left: 15px;
+	
+}
+
+.field-name-blogs-relaciondaos li a:hover {
+	color: red;
+}
+
+
+/***********************************/
+
+.node-atracciones-turisticas ul.links li {
+	list-style: none;
+}
+
+.geofieldIn .field-name-field-geolocalizacion {
+	padding: 0.5em;
+	background: rgb(137, 153, 137);
+}
+
+#node_atracciones_turisticas_full_group_genrales3 .field-wrapper {
+	margin-bottom: 1.2em;
+}
+
+
+/******************************************************/
+/******************** Disposiciones de layer *********/
+
+.l-main {
+	margin-bottom: 2.5em;
+	padding-top: 1rem;
+}
+
+.block-views-relaciones-block {
+	
+}
+
+.block-views-relaciones-block h3 {
+	color: white;
+}
+
+.block-views-relaciones-block-1 {
+	background: white;
+}
+
+
+/***************************************************************/
+/* image slider */
+
+.image-slider .es-slides > li {
+	position: relative;
+}
+
+
+.image-caption {
+	position: absolute;
+	top: 8%;
+	right: 5%;
+	height: 35px;
+	overflow: hidden;
+}
+
+.image-caption span {
+	display: block;
+	line-height: 15px;
+	padding: 10px;
+	color: #ddd;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #222;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	-o-transition: -o-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.image-slider .es-before-slide .image-caption span {
+	opacity: 0;
+	-webkit-transform: translate(0, -35px);
+	-moz-transform: translate(0, -35px);
+	-o-transform: translate(0, -35px);
+	transform: translate(0, -35px);
+	-webkit-transition-duration: 0;
+	-moz-transition-duration: 0;
+	-o-transition-duration: 0;
+	transition-duration: 0;
+}
+
+.image-slider .es-after-slide .image-caption span {
+	opacity: 1;
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+/* featured slider */
+
+.featured-slider {
+	padding-top: 20px;
+}
+
+.featured-slider .es-pagination {
+	left: 0;
+	top: 0;
+	bottom: auto;
+}
+
+.featured-slider .es-pagination a {
+	right: auto;
+	margin: 0 10px 0 0;
+}
+
+.featured-slider .es-slides > li {
+	width: 200px;
+	margin-right: 5px;
+}
+
+.featured-slider .featured-pic {
+	position: relative;
+	background: #fff;
+}
+
+.featured-slider .featured-pic img  {
+	opacity: 1;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.featured-slider .featured-pic:hover img {
+	opacity: 0.7;
+}
+
+.featured-slider .featured-pic:hover > a {
+	visibility: visible;
+}
+
+.featured-slider .featured-pic > a {
+	position: absolute;
+	visibility: hidden;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 65px;
+	padding: 5px 0;
+	margin-top: -15px;
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+	line-height: 20px;
+	color: #fff;
+	background: #ff5452;
+	z-index: 1;
+}
+
+.featured-title {
+	padding: 8px 15px 8px;
+	color: #666;
+	background: #eee;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ddd;
+}
+
+.featured-title > a {
+	display: block;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	color: #444;
+	font-size: 13px;
+	line-height: 15px;
+	margin-bottom: 3px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.featured-title > a:hover {
+	color: #666;
+}
+
+.featured-title > span {
+	font-size: 11px;
+	font-style: italic;
+	line-height: 15px;
+	color: #666;
+}
+
+/* fullwidth slider */
+
+.fullwidth-slider .es-slides > li {
+	/* 1.6 ~ image width/height */
+	width: 300px;	
+	height: 187px;
+	background: #111;
+	overflow: hidden;
+}
+
+.fullwidth-slider .es-navigation a {
+	top: 0;
+	margin-top: 0;
+	background: #ff5452;
+}
+
+.fullwidth-slider .es-ticker {
+	bottom: auto;
+	top: 0;
+	margin-right: 34px;
+}
+
+.fullwidth-slider .es-slides > li img  {
+	opacity: 1;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.fullwidth-slider .es-slides > li:hover img {
+	opacity: 0.8;
+}
+
+.fullwidth-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background: #fff;
+	border-bottom: 2px solid #eee;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #555;
+	font-size: 11px;
+	line-height: 15px;
+	box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.fullwidth-title > a {
+	display: block;
+	color: #999;
+	text-transform: uppercase;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.fullwidth-title > a:after {
+	content: "\2192";
+	margin-left: 5px;
+}
+
+.fullwidth-title > a:hover {
+	color: #555;
+}
+
+.fullwidth-title span {
+	display: none;
+	margin-top: 5px;
+}
+
+.fullwidth-slider .es-slides > li:hover .fullwidth-title span {
+	display: block;
+}
+
+.largo img, .pequenio img {
+  height: 12.5em;
+  border: 5px solid rgb(235,235,235);
+}
+
+.copyright {
+	margin-top: 0.7em;
+}
+
+.copy {
+	padding-top: 0.8em;
+}
+
+.img-footer li {
+	list-style: none;
+} 
+
+.logos-images{
+	background: white; 
+	border-radius: 5px;
+	padding:0.6em 0.4em;
+}
+
+.footmenu li {
+	border-left: 1px solid gray;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.logos-divs .hon{
+	padding: 0;
+}
+
+.logos-divs img {
+	width: 100%;
+}
+
+/***************** Alternador de Idiomas **************/
+
+.alternador-de-idiomas {
+	padding: 0.9rem 0.5rem 0.1rem 0.2rem;
+	margin-bottom: 1.5rem;
+}
+
+.alternador-de-idiomas .language-switcher-locale-url {
+	margin-bottom: 0;
+}
+
+.alternador-de-idiomas .language-switcher-locale-url li {
+	list-style: none;
+	display: inline;
+}
+
+.alternador-de-idiomas .language-switcher-locale-url a {
+	padding: 0.6rem;
+	background: rgba(77,77,255,0.8);
+	color: white;
+	font-size: 0.8rem;
+}
+
+.alternador-de-idiomas  a.active {
+	background: #ff4d4d !important;
+	font-weight: bold
+}
+
+
+.circulos li {
+	display: inline;
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+
+}
+
+.boxes .box>a:before, .boxes .box .flipper a:before {
+	background: #553A4E;
+}
+
+
+/**************************************************/
+
+
+@media (max-width: 1024px) {
+	.top-bar {
+		height: 65px;
+	}
+	.top-bar .name {
+		height: 65px;
+	}
+	.top-bar .name h1 a {
+		width: 15rem;
+	}
+	
+	.front .view-display-id-block_2 {
+		margin-top: 4.5rem !important;
+	}
+}
+
+h4, h3, h5, .title {
+	font-family: Hondurean;
+}
+
+.titlebar .title {
+	margin: 15px 0 0;
+}
+
+.m-t-50 {
+	margin-top: 20px !important;
+}
+
+.fixed, .fixed .top-bar {
+	background:rgb(245,245,245);
+}
+/**************** Clases Generias *****************/
+
+
+.cuerpo {
+	background: #EDDED3;
+	padding: 1.2rem;
+	min-height: 26.5rem; /* add responsive for height */
+	margin-bottom: 1rem;
+}
+
+.cuerpo-lateral-small {
+	background: #EDDED3;
+	padding: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+
+.box-set {
+	padding: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.division {
+	margin-bottom: 0.7rem;
+}
+
+.area-colors-1 {
+	background-color: rgb(255,165,0);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.area-colors-1:hover {
+	background-color: rgb(204,132,0);
+} 
+
+.area-colors-2 {
+	background-color: rgb(162,162,254);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.area-colors-2:hover {
+	background-color: rgb(86,86,253);
+}
+
+.area-colors-3 a{
+	background-color: rgba(1,173,44,0.5);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	margin-bottom: 2rem;
+}
+
+
+.area-colors-3 a:hover {
+	background-color: rgb(1,173,44);
+
+}
+
+.area-colors-4 {
+	background: #E7F0D7;
+}
+
+.area-color-5 {
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.area-color-5:hover {
+	background: #ccc;
+}
+
+.external-link {
+	margin:1rem 0 2rem 0;
+}
+
+
+.external-link a {
+	text-align: center;
+	padding: 1.5rem 0 1.5rem 0;
+	width: 100%;
+	display: block;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.item-list ul li {
+	list-style: none;
+	margin: 0 0 0.3rem 0;
+	padding: 0;
+	width: 100%;
+
+}
+
+.sub-menu li a{
+	padding: 1.2rem;
+	background: rgba(254,100,46,0.5);
+	width: 100%;
+	display: block;
+
+}
+
+.sub-menu li a.active{
+	background: rgb(254,100,46);
+}
+
+.sub-menu li a:hover{
+	background: rgb(254,100,46);
+	color: white;
+}
+
+
+.line-division {
+	margin-bottom: 1rem;
+}
+
+.line-division .field-label {
+	color:#009AE7;
+}
+
+
+/* Campo no generico ************************************/
+.page-taxonomy-term .view-display-id-attachment_2 img {
+	width: 100% !important;
+}
+
+#taxonomy_term_explorar_image_relational_group_divisor {
+	display: inline-block;
+	width: 6rem;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#taxonomy_term_explorar_image_relational_group_divisor:hover{
+	background: #EDDED3;
+}
+
+#taxonomy_term_explorar_image_relational_group_divisor > div{
+	display: inline-block;
+}
+
+
+#taxonomy_term_servicios_hoteleros_image_relational_group_divisor {
+	display: inline-block;
+	width: 6rem;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	height: 114px;
+}
+
+#taxonomy_term_servicios_hoteleros_image_relational_group_divisor:hover {
+	background: #EDDED3;
+}
+
+#taxonomy_term_servicios_hoteleros_image_relational_group_divisor > div {
+	display: inline-block;
+}
+
+.view-mode-image_relational {
+	display: inline-block;
+}
+
+
+/*******************************************************/
+.group-servicios {}
+
+.group-servicios .divisor {
+	text-align: center;
+	margin-right: 10px;
+}
+
+.listado-imagen-taxonomica li, .field-name-field-ref-tipo-actividad li{
+	display: block;
+	width:115px;
+	margin-right: 0.5rem;
+	float: left;
+	padding:5px 2px 2px 5px;
+}
+
+.field-name-field-ref-tipo-actividad li p {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.field-name-field-ref-tipo-actividad .field-name-field-tx-icono {
+	text-align: center;
+}
+
+.listado-imagen-taxonomica li:hover, .field-name-field-ref-tipo-actividad li:hover {
+	background: #EDDED3;
+}
+
+.listado-imagen-taxonomica .field-type-image {
+	display: inline;
+}
+
+
+.field-name-title {
+	width: 100%;
+}
+
+.caption-title{
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+
+
+/***************** Destinos ************************/
+
+
+.node-destinos-turisticos .image, .node-destinos-turisticos .image img {
+	width: 100%;
+}
+
+.node-destinos-turisticos .image {
+	margin-bottom: 0.5rem;
+}
+
+
+.flexslider, .field-name-field-geolocalizaci-n {
+	margin-bottom: 1rem;
+}
+
+/***********************************/
+
+.ui-widget-header {
+	background: none;border: none;
+}
+
+.ui-widget-content {
+	background: none;border:none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border:none;
+}
+
+.ui-tabs {/*font-family: "Josefin San" !important*/font-size: 1rem;} /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {background:white; padding: 0;}
+.ui-tabs .ui-tabs-nav li {border-bottom: none; background-color: white !important; }
+.ui-tabs .ui-tabs-nav li a {color:black; border-radius: 5px 5px 0 0; font-size: 1em !important;}
+.ui-tabs .ui-tabs-nav li a:hover {color: red;}
+.ui-tabs .ui-tabs-nav li.ui-state-active  a {color: red; background-color:#E7F0D7;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, 
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {border-bottom: 1px solid #c0c0c0; color:red; background:#D8D0CD;}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {background-color:#E7F0D7; padding: 2em 2.4em; color:black; min-height: 26rem;} /*add responsive for heigth*/
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius:0;
+}
+
+/**********************************************************************/
+
+.flex-direction-nav a:before {
+	font-size: 35px;
+}
+/******************* vistas *******************************************/
+#font-block-1{
+	margin-bottom: 1.8rem;
+}
+
+.field-name-hoteles h2 {
+	text-align: right;
+}
+
+#relaciones,#relaciones2  {
+	margin-bottom: 0.8rem;
+}
+
+#relaciones h5,#relaciones2 h5 {
+	min-height: 55px;
+}
+
+.section-explorar #relaciones h5,#relaciones2 h5 {
+	min-height:10px;
+}  
+
+#relaciones .views-row-content, #relaciones2 .views-row-content{
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	/*height: 376px;*/
+	margin-bottom: 1rem;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.node-type-destinos-turisticos .views-row-content {
+	height: 376px;
+}
+
+#relaciones li, #relaciones2 li {
+	list-style: none;
+}
+
+#relaciones .views-row-content:hover, #relaciones2 .views-row-content:hover{
+	background: #ccc;
+}
+
+
+#relaciones img, #relaciones2 img{
+	width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+
+.caption {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/trans-black-50.png);
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	overflow: hidden;
+}
+
+.caption p {
+	padding: 0em 0.2em;
+	color: white;
+}
+
+.grid-block {
+	position: relative;
+}
+
+.block-block-9 {
+	clear: both;
+}
+
+/******************* Navegador de Contenidos **************************/
+
+
+.field-name-navegador-de-contenido .prev-next-links {
+	position: relative;
+	background: blue;
+}
+
+.field-name-navegador-de-contenido .prev-next-links li {
+	display: block;
+	list-style: none;
+	float: right;
+	margin-left: 1.5rem;
+	padding: 0.5rem;
+}
+
+/******************* Atracciones truristicas **************************/
+
+#node_atracciones_turisticas_full_group_info_general .field {
+	margin-bottom: 0.8rem;
+}
+
+/***************** Hoteles *****************************************/
+
+.field-name-field-tb-tarifas .field-label{
+	font-size: 1.5rem;
+	font-weight: 200;
+	padding-top: 0.5rem;
+}
+
+.tablefield {
+	width: 100%;
+}
+
+.tablefield thead{
+	border-bottom: 2px solid #ccc;
+	background: rgb(255,255,255); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+
+.tablefield th {
+	font-weight: bolder;
+}
+
+.tablefield tbody tr.odd, .tablefield tbody tr.even {
+	background: rgb(250,250,250) !important;
+}
+
+
+
+/************************ Tour Operadores *******************************/
+.field-name-field-imagen-logo {
+	margin-bottom: 0.5rem;
+}
+#node_proveedores_tour_operadores_full_group_contact_info .field {
+	margin-bottom: 1.5rem;
+}
+
+#node_proveedores_tour_operadores_full_group_tipo_actividad .links li {
+	list-style: none;
+	display: inline;
+	float: left;
+}
+
+.node-type-proveedores-tour-operadores .field-type-telephone a, .node-type-proveedores-tour-operadores .field-type-email a {
+	display: block;
+}
+
+.page-with-whom  .zf-1col {
+	margin: 0 5px 0 15px !important;
+	width: 30px !important;
+	display:block;
+}
+
+.entity-field-collection-item h2 {
+	display: none;
+}
+
+/************************ Vista *****************************************/
+
+.block-views-exp-con-quien-page, .block-views-exp-con-quien-page-1 {
+	padding: 0 0 0 40px;
+	border-bottom: silver 2px solid;
+	margin-bottom: 1.5rem;
+}
+
+.form-item-field-ref-destninos-nid, .form-item-field-aprox-tarifa-value {
+	width: 13rem;
+}
+
+.page-with-whom-hotels .views-row {
+	margin-bottom: 2.6rem;
+}
+
+.vocabulary-servicios-hoteleros {
+	width: 44px;
+	/* float: left; */
+	display: block;	
+	float: left;
+}
+
+.view-display-id-attachment_1 {
+	margin-bottom: 1.5rem;	
+}
+
+.taxonomia {
+	margin-bottom: 1rem;
+}
+
+
+/************************ Paneles ***************************************/
+
+.pane-mapas {
+	margin-bottom:1.8rem;
+	border: 3px solid #ccc;
+}
+
+/****************blogs *************************/
+/*
+#views-exposed-form-blog-page, .view-display-id-page_2 .view-filters {
+	padding: 0 0 0 40px;
+	border-bottom: silver 2px solid;
+	margin-bottom: 1.5rem;
+}*/
+
+.node-type-blog .block-title {
+	display: none;
+}
+
+.node-type-blog .th {
+	display: block !important;
+}
+
+.field-name-field-image img{
+	width: 100%;
+	height: 400px;
+}
+
+.leaflet-popup-content a:first-child{
+	display: block;
+}
+
+.masonry-item {
+  	margin: 0 0 20px;
+  	float: left;
+	width: 245px;
+	background: #ffffff;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	padding: 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.masonry-item:hover {
+	background: rgb(204, 204, 204);
+}
+
+/************************** Redes sociales****************************************/
+
+.view-filters {
+	padding: 0 0 0 40px;
+	border-bottom: silver 2px solid;
+	margin-bottom: 1.5rem;
+}
+
+/***************  Taxonomy pages ************************/
+
+.page-taxonomy .view-display-id-attachment_1{
+	width: 35%;
+	float: left;
+}
+
+.page-taxonomy .view-display-id-attachment_2{
+	width: 60%;
+	float: right;
+}
+
+.page-taxonomy .view-display-id-attachment_3 {
+	clear:both;
+}
+
+/********************************************************-*/
+
+.video {
+	margin-bottom: 1.5rem;
+} 
+
+/***********************************************************/
+
+select {
+    padding:8px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/***********************************************************/
+
+.month-view .future .day {
+	color:silver !important;
+}
+
+.month-view  .day {
+	color:black !important;
+}
+
+.view-eventos-y-festividades {
+	border-bottom: 1px solid silver;
+}
+
+.view-eventos-y-festividades .dates, .page-taxonomy .dates{
+	background:rgba(0, 154, 231, 0.5);
+	height: 100%;
+	padding: 0.9rem 0.5rem;
+}
+
+.view-eventos-y-festividades .day, .page-taxonomy .day {
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+
+.view-eventos-y-festividades .mouth, .page-taxonomy .mouth {
+	color: rgb(54, 92, 167);
+	text-align: center;
+}
+
+.view-eventos-y-festividades .year, .page-taxonomy .year {
+	font-size: 0.7rem;
+	color: white;
+	text-align: center;
+}
+
+.view-eventos-y-festividades h4 {
+	font-family: inherit;
+}
+
+.txbody p {
+	font-size: 0.8rem;
+}
+
+.field-name-event-calendar-date {
+	margin-bottom: 1.5rem;
+}
+
+.date-display-start, .date-display-end {
+	color: gray;
+	font-style: bold;	
+}
+
+.image-container {
+	z-index:999;
+}
+
+.front .image-container{
+	z-index: 1;
+}
+
+.front-image {
+	border:1px solid silver;
+	padding: 5px;
+}
+
+
+.front-image .image img {
+	width: 35%;
+	height: 40%;
+}
+
+.view-display-id-block_1 {
+	margin: 0.5rem 0 2.5rem 0;
+	/*border: 1px solid silver;*/
+}
+
+.detalle {
+	padding: 0.5rem;
+}
+
+.detalle p {
+	font-size:0.8rem;
+}
+
+.detalle .field-name-field-imagen-logo {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.detalle .field-name-field-imagen-logo img {
+	width: 25px;
+	height: 25px;	
+}
+
+
+.mini tr{
+	height: 35px;
+}
+/*********************Eventos y Fest ********************/
+
+.view-eventos-y-festividades .views-row, .view-display-id-page_6 .views-row {
+	margin: 0rem 0 1rem 0;
+}
+.view .date-nav-wrapper .date-nav {
+	background-color: transparent;
+	border: 0px;
+	height: 30px;
+	/* height: auto; */
+	min-height: 30px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.view-eventos-y-festividades {
+	padding: 0.4rem 0 0 0;
+}
+
+
+/********************************************************/
+
+.block-block-9 .block-content {
+	background: white;
+	padding:10px 0 35px 0;
+	
+}
+
+a.links {
+	width: 100%;
+	display:block;
+	height: 7px;
+	padding-top: 75px;
+	text-align:center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	font-family:Hondurean;
+	
+}
+
+a.links:hover {
+	background-color: rgba(237, 222, 211, 0.8);
+}
+
+a.hotel {
+	background: url("../images/portada/hotel2.png") no-repeat center center;
+}
+
+a.restaurantes {
+	background: url("../images/portada/restaurante.png") no-repeat center center;
+}
+
+a.tours {
+	background: url("../images/portada/hotel3.png") no-repeat center center;
+}
+
+a.transportes {
+	background: url("../images/portada/transporte.png") no-repeat center center;
+}
+
+/**************************************************************************************/
+
+.block-menu-menu-menu-footer li {
+	display:inline;
+	float:left;
+	list-style:none;
+	margin-right: 35px;
+}
+
+
+/*************************************************************************************/
+
+
+/****** Front Page Styles *******/
+
+.front .l-featured {
+	background: none;
+}
+
+#font-block-2 {
+	margin-bottom: 2rem;
+}
+
+.view-taxonomias-frontpage {
+	margin-bottom: 3rem;
+}
+.views_slideshow_cycle_main {
+	width: 100%;
+	float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+	width: 100% !important;
+	height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+	width: 100% !important;
+	height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+	max-width: 100%;
+	width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#views_slideshow_cycle_main_views_front-block_3 img {
+	width: 290px;
+	height: 370px !important;
+	/*height: 370px !important;*/
+}
+
+.slide-image {
+	position: relative;
+}
+.slide-caption {
+	position: absolute;
+	padding-bottom: 10px;
+	display: block;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	bottom: 0;
+}
+.slide-caption p,
+.slide-caption .field-content {
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+.slide-caption p {
+	font-size: 1.8rem;
+	margin-bottom: 2px;
+}
+.slide-ico .field-content {
+	position: absolute;
+	bottom: 10px;
+	right: 85%;
+}
+.slide-ico .field-content img {
+	width: 35px !important;
+}
+.views-slideshow-pager-field-item {
+	margin: 0 5px 0 0;
+}
+.views-slideshow-pager-fields {
+	padding-left: 1.4rem;
+}
+.views-content-field-image {
+	float: left;
+	margin-right: 3px;
+}
+
+.views-field-counter {
+	display: inline;
+	float: left;
+	margin-right: 0.3rem;
+	background:url("../images/ball_bg.png") no-repeat top center;
+	/*border-radius: 5px;*/
+	width: 16px;
+	height: 1px;
+	padding-top: 16px;
+	overflow: hidden;
+}
+
+/*************** Blog Slider **********************/
+.blog-slide {
+	margin: 0 2rem 1.5rem 0;
+}
+
+.blog-slide img{
+	height: 240px !important;
+	position: relative;
+}
+
+#views_slideshow_cycle_main_views_front-block_3 {
+	width: 42%;
+	float: left;
+}
+
+#widget_pager_bottom_views_front-block_3 {
+	width: 55%;
+	float: right;
+}
+
+.blog-slide #views_slideshow_cycle_main_views_front-block_3 img {
+	width: 270px !important;
+	padding-left: 6px;
+}
+
+.blog-slide #widget_pager_bottom_views_front-block_3 {
+	right: 1px;
+	z-index: 999;
+}
+
+.blog-slide .views-slideshow-pager-field-item {
+	border-top: 1px solid rgb(182, 177, 201);
+	padding: 0.6rem 0 0.6rem 0.2rem;
+}
+
+.blog-slide .views-slideshow-pager-field-item .views-content-title {
+	font-weight:500;
+	font-style: normal !important;
+	font-size:1.1rem;
+}  
+
+.blog-slide .views-slideshow-pager-field-item:hover {
+	background: rgba(191, 189, 201, 0.5);
+}
+
+
+.blog-slide .views-field-field-fuente span{
+	color:rgb(182, 177, 201);
+	font-size: 0.7rem;
+}
+
+.blog-slide .views-field-title {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.1rem;
+}
+
+.blog-slide .active .views-field-title {
+	color: red;
+}
+
+.es-ticker{
+	display: none;
+}
+
+.blog-slide .blog-slider-link a {
+	color:white;
+	background: red;
+	border-radius: 5px;
+	padding: 0.5rem;
+	position: absolute;
+	top: -10px;
+	display: none;
+}
+
+.blog-slide .views-content-field-fuente {
+	font-size: 0.6rem;
+	margin: 0.5rem 0;
+	color:red;
+}
+
+.blog-slide .views-content-body {
+	font-size: 0.7rem;
+}
+
+/*************************************/
+
+.front .view-display-id-block_2 {
+	padding: 0.2rem 0 0.2rem 1rem;
+	margin-bottom: 1rem;
+	border-left: 6px solid rgb(251, 184, 32);
+	margin-top: 0.2rem;
+}
+
+.view-display-id-block_2 .views-field-title {
+	margin-bottom: 1rem;
+}
+
+.view-display-id-block_2 .views-field-title a {
+	font-size: 2rem;
+	font-weight: 300;	
+	font-family: Hondurean;
+}
+
+.view-display-id-block_2 .views-field-field-fuente {
+	font-size: 0.8rem;
+}
+
+/*************************************/
+
+.image-container img {
+	width: 100%;
+	height: 240px;
+}
+
+.front-title {
+	font-family: Hondurean;
+	text-align: center;
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+.palabras-lista li {
+	text-align: center;
+	list-style: none;
+	display: inline;
+	margin-right: 7rem;
+	font-size: 1.8rem;
+}
+.verde {
+	margin-right: 14rem !important;
+	color: #94E107;
+}
+.naranja {
+	margin-right: 1rem !important;
+	color: #FF751A;
+}
+.r_claro {
+	padding: 0 10rem 5rem 10rem;
+	color: #E60000;
+}
+.r_morado {
+	padding: 0 6rem 0 1rem;
+}
+.rosado {
+	color: #C91048;
+}
+
+
+.guara {
+	margin-top:10px;
+	text-align:center;
+	color:#2E7AC8;
+	font-size:2.5rem;
+	margin-bottom: 0;
+}
+
+.guara span {
+	display:inline-block;
+	height:0px;
+	padding-top:80px;
+	overflow:hidden;
+	background: url("../images/marca1.png") no-repeat right bottom;
+	width: 195px;
+	margin-top: -50px;
+}
+
+.slider-name-single {
+	font-size: 0.8rem !important;
+}
+.h {
+	background: gray;
+	width: 24%;
+	float: left;
+}
+.h a {
+	display: block;
+	height: 0px;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 6.5em;
+}
+.img-h {
+	background: url("../images/portada/hotel2.png") no-repeat center center;
+}
+.img-t {
+	background: url("../images/portada/transporte.png") no-repeat center center;
+}
+.img-o {
+	background: url("../images/portada/restaurante.png") no-repeat center center;
+}
+.img-s {
+	background: url("../images/portada/hotel3.png") no-repeat center center;
+}
+/*********** Fields *********************************************/
+
+.clearing-thumbs .field-item {
+}
+
+.cuarter{
+	margin-right: 0 !important;
+	padding: 4%;
+}
+
+.half {
+	margin: 0 !important;
+}
+
+.cuarter img {
+	height: 150px;
+} 
+
+.half img {
+	height: 200px;
+}
+
+.node-type-blog .cuarter img {
+	height: auto;
+}
+
+.field-name {
+	display: block;
+	margin-bottom: 1rem;
+}
+/*************************************************/
+
+.visible-img img {
+	width: 60%;
+}
+
+#preloader {
+	z-index: 1000;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  position: absolute;
+  z-index: 399; /* was 1000 */
+  pointer-events: none;
+  }
+
+
+
+/**************** Social *****************************/
+
+#social-add {
+	width: 45px;
+	position: fixed;
+	top:255px;
+	left: 0;
+}
+
+/***************** calendar ********************/
+.date-prev, .date-next{
+	display: none !important;
+}
+
+.calendar-calendar table thead, .calendar-calendar thead th  {
+	background: black !important;
+}
+
+.calendar-calendar table .single-day {
+	height: 12px !important;
+}
+
+
+/************* hash *****************************/
+
+.hash {
+	margin-top:10px;
+	min-height: 55px;
+	/*background-color: rgb(225, 243, 255);*/
+	padding: 0.4rem 0.3rem;
+}
+
+.hash p a {
+	color: rgb(0, 154, 231);
+	font-size: 1.6rem;
+	font-family: Hondurean;
+}
+
+/****/
+
+.monop {padding-top:0.9em;}
+.bigs {border-right: 1px solid silver;}
+
+.logos-li{
+}
+
+.premium {
+	list-style:none !important;
+	display:inline;
+	float:left;
+	margin-right: 33px;
+}
+
+.premium a {
+	display: block;
+	width: 100px;
+	height:0px;
+	padding-top:96px;
+	overflow:hidden;
+}
+
+.sponser {
+	list-style:none !important;
+	display:inline;
+} 
+
+.sponser a {
+	display: block;
+	width: 200px;
+	height:0px;
+	padding-top:50px;
+	overflow:hidden;
+}
+
+/**************** Media querys *******************/
+
+@media only screen and (max-width: 40em) { 
+	.l-slider {
+		display:none;
+	}
+	
+	.blog-slide img {
+		display: none;
+	}
+	
+	#widget_pager_bottom_views_front-block_3 {
+		width:100%;
+		float: none;
+	}
+	
+	.blog-slide  #widget_pager_bottom_views_front-block_3 {
+		width:100%;
+		float: none;
+		padding-left:0 !important;
+	}
+	
+	.field-type-geofield {
+		display:none;
+	}	
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
