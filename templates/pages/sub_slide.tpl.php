@@ -14,7 +14,7 @@
 							<div class="inner-slide"> 
 								<img src="http://honduras.travel/sites/default/files/carrucel/islas_carrucel.jpg" alt="">
 									<div class="fullwidth-title">
-									<a href="http://honduras.travel/islas" class="yell" ><strong>Islas de la Báhia</strong></a>
+									<a href="http://honduras.travel/islas" class="yell" ><strong>Islas de la Bahía</strong></a>
 									<span><?php print t("Surrounded by the sparkling Caribbean, breathe the second largest reef in the world. Nothing else counts, it lives on the surface") ?>.</span>
 								</div>
 							</div>
@@ -32,7 +32,7 @@
 							<div class="inner-slide"> 
 							<img src="http://honduras.travel/sites/default/files/carrucel/occidente_carrucel.jpg" alt="">
 							<div class="fullwidth-title">
-								<a href="http://honduras.travel/occidente" class="oran" ><strong>Copán Ruinas y Occident</strong></a>
+								<a href="http://honduras.travel/occidente" class="oran" ><strong>Copán Ruinas y Occidente</strong></a>
 									<span><?php print t("The Maya World, the Lenca Creole tradition and colony odor of snuff and cafes high, forested peaks between") ?>.</span>
 								</div>
 							</div> 
@@ -41,7 +41,7 @@
 							<div class="inner-slide"> 
 							<img src="http://honduras.travel/sites/default/files/carrucel/sanpedro_carrucel.jpg" alt="">
 							<div class="fullwidth-title">
-								<a href="http://honduras.travel/sanpedrosula" class="gree" ><strong>San Pedro Sula y alredeodres</strong></a>
+								<a href="http://honduras.travel/sanpedrosula" class="gree" ><strong>San Pedro Sula y alrededores</strong></a>
 								<span><?php print t("Sula Valley to the sea, industry, nature and the largest port in the area, pointing to progress") ?>.</span>
 							</div>
 							</div>
@@ -50,7 +50,7 @@
 							<div class="inner-slide"> 
 							<img src="http://honduras.travel/sites/default/files/carrucel/tegucigalpa_carrucel.jpg" alt="">
 							<div class="fullwidth-title">
-								<a href="http://honduras.travel/tegucigalpa" class="red" ><strong>Tegucigalpa y alredodores</strong></a>
+								<a href="http://honduras.travel/tegucigalpa" class="red" ><strong>Tegucigalpa y alrededores</strong></a>
 								<span><?php print t("The capital that was born from the mines, breathing rainforest, just one step from its colonial tradition") ?>.</span>
 							</div>
 							</div>
