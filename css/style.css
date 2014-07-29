@@ -631,7 +631,7 @@ h4, h3, h5, .title {
 
 
 .cuerpo {
-	background: #EDDED3;
+	background-color: rgba(234, 247, 255,0.5);
 	padding: 1.2rem;
 	min-height: 26.5rem; /* add responsive for height */
 	margin-bottom: 1rem;
