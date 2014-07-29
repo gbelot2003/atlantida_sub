@@ -23,16 +23,24 @@
  *
  * @ingroup views_templates
  */
+
+$txy = $fields['name']->raw;
+$txy = strtolower($txy);
+$txy = str_replace(' ', '', $txy);
+$txy = str_replace('í', 'i', $txy);
 ?>
+
 <div class="slide-container">
 	<div class="slide-image">
 		<?php print $fields['field_image']->content ?>
 		<div class="slide-caption">
 			<?php if(isset($fields['field_tx_icono']->content)): ?>
-			<span class="slide-ico"><?php print $fields['field_tx_icono']->content ?></span>
+			<span class="slide-ico"><span class="icos <?php print $txy ?>"><?php print $fields['name']->raw ?></span></span>
 			<?php endif ?>
 			<p class="slider-name"><?php print $fields['name']->content ?>
 								<?php print $fields['field_explorar_leyenda']->content ?></p>
 		</div>
 	</div>	
 </div>
+
+ 
