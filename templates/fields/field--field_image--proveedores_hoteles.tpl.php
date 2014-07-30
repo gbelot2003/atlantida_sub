@@ -49,7 +49,7 @@
 <div class="<?php print $trimmed; ?>"<?php print $attributes; ?>>
   <ul class="clearing-thumbs" data-clearing>
     <?php foreach ($items as $item): ?>
-		<?php $i++; if($i == 1 || $i == 2 || $i == 3 ){ $clearClass = "clearing-featured-img"; } else {$clearClass = "hide";} ?>
+		<?php $i++; if($i == 1 || $i == 2 || $i == 3 ){ $clearClass = "clearing-featured-img crop"; } else {$clearClass = "hide";} ?>
 		<?php if($i == 1 || $i == 2){$zurbClass = "cuarter large-6 columns";} else if($i == 3){$zurbClass = "half large-12 columns";} else {$zurbClass = NULL;}	?>	
 	   	<li class="field-item <?php print $clearClass ." ". $zurbClass ?> "><?php print render($item); ?></li>
     <?php endforeach; ?>

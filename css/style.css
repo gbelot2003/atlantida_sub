@@ -638,7 +638,7 @@ h4, h3, h5, .title {
 }
 
 .cuerpo-lateral-small {
-	background: #EDDED3;
+	background-color: rgba(234, 247, 255,0.5);
 	padding: 1.2rem;
 	margin-bottom: 1rem;
 }
@@ -1751,13 +1751,29 @@ a.transportes {
 	margin: 0 !important;
 }
 
+/********************  CROP Hotel  *********************************/
+
 .cuarter img {
-	height: 150px;
+	/*     height: 150px;    */
+} 
+.half img {
+	/*    height: 200px;     */
+}
+/**************************CROP************************************/
+.crop {
+	float:center;
+ 	margin:.5em 0px .5em 0;
+ 	overflow:hidden !important; /* IMPORTANTE */
+} 
+.crop img {
+ margin:-10px -10px -10px -10px;
+}
+.crop p {
+ margin:-10px -10px -10px -10px;
 } 
 
-.half img {
-	height: 200px;
-}
+/**************************END************************************/
+
 
 .node-type-blog .cuarter img {
 	height: auto;
@@ -1890,3 +1906,6 @@ a.transportes {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+
