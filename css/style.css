@@ -69,7 +69,7 @@
 }
 
 .field-name-share {
-	rgba(0,177,211,0.5) !important
+	background:rgba(0,177,211,0.5) !important
 }
 
 .explora {
@@ -100,6 +100,18 @@
 	background:rgba(0,177,211, 0.5) !important;
 }
 
+.taxonomia {
+	display:inline;
+	float:left;
+	width:370px;
+	max-height:320px;
+	height: 320px;
+}
+
+.taxonomia img {
+	width:800px;
+	height:600px;
+}
 
 /************************************************************************************************/
 
@@ -1787,6 +1799,7 @@ a.transportes {
 .publicidad {
 	margin-top: 15px;
 	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
 /**************************END************************************/
 
