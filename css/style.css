@@ -1784,6 +1784,10 @@ a.transportes {
  margin:-10px -10px -10px -10px;
 } 
 
+.publicidad {
+	margin-top: 15px;
+	padding-top: 0px !important;
+}
 /**************************END************************************/
 
 
