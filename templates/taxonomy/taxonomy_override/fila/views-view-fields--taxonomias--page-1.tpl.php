@@ -26,14 +26,9 @@
 ?>
 <div class="views-row-content">
 	<div class="grid-block fade">
-		<?php if(strlen($fields['field_ref_destninos']->content) < 100): ?>
 			<?php print $fields['field_image']->content ?>		
-		<?php endif ?>
 	</div>
 	<h5><?php print $fields['title']->content ?></h5>
-	
-	<?php if(strlen($fields['field_ref_destninos']->content) < 33): ?>
 		<p><?php print $fields['field_ref_destninos']->content ?></p>
-	<?php endif ?>
 </div>
 
