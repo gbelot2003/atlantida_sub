@@ -73,7 +73,7 @@
 }
 
 .explora {
-	/* color: #ff9e00; //defecto */
+	color:rgb(252,160, 39);
 }
 
 .portal {
@@ -82,8 +82,18 @@
 }
 
 .guara {
-	color: rgb(0,177,211) !important;
+	color: rgb(252,160, 39) !important;
 	/*color del portal lleva imagen de HondurasGuara*/
+}
+
+.guara span {
+	display: inline-block;
+	height: 0;
+	padding-top: 54px;
+	overflow: hidden;
+	background: url(http://honduras.travel/atlantida/sites/default/themes/atlantida_sub/images/marca1.png) no-repeat right bottom;
+	width: 200px;
+	margin-top: -50px;
 }
 
 .block-views-relaciones-block {
@@ -1754,10 +1764,12 @@ a.transportes {
 /********************  CROP Hotel  *********************************/
 
 .cuarter img {
-	/*     height: 150px;    */
+	margin:-10px -10px -10px -10px !important;
+
 } 
 .half img {
-	/*    height: 200px;     */
+	margin:-50px -10px -50px -10px !important;
+
 }
 /**************************CROP************************************/
 .crop {
@@ -1900,7 +1912,11 @@ a.transportes {
 	
 	.field-type-geofield {
 		display:none;
-	}	
+	}
+	
+	.half img{
+		margin:-10px 0px -10px 0px !important;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
