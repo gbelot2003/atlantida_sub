@@ -80,6 +80,37 @@
 		$('.has-icon').click(function(event) {event.preventDefault();});
 	});	
 
+	
+	$(document).ready(function(){
+		$('.listado-imagen-taxonomica li a:contains("Aventura")').addClass('aventura icos').prop('title', 'Aventura');
+		$('.listado-imagen-taxonomica li a:contains("Adventure")').addClass('aventura icos').prop('title', 'Adventure');
+		
+		$('.listado-imagen-taxonomica li a:contains("Naturaleza")').addClass('naturaleza icos').prop('title', 'Naturaleza');
+		$('.listado-imagen-taxonomica li a:contains("Nature")').addClass('naturaleza icos').prop('title', 'Nature');
+		
+		$('.listado-imagen-taxonomica li a:contains("Sol y Playa")').addClass('solyplaya icos').prop('title', 'Sol y Playa');
+		$('.listado-imagen-taxonomica li a:contains("Sun and Beach")').addClass('solyplaya icos').prop('title', 'Sun and Beach ');
+		
+		$('.listado-imagen-taxonomica li a:contains("Archeology")').addClass('arqueologia icos').prop('title', 'Archeology');
+		$('.listado-imagen-taxonomica li a:contains("Arqueología")').addClass('arqueologia icos').prop('title', 'Arqueología');
+		
+		$('.listado-imagen-taxonomica li a:contains("Aviturismo")').addClass('aviturismo icos').prop('title', 'Aviturismo');
+		$('.listado-imagen-taxonomica li a:contains("Birding")').addClass('aviturismo icos').prop('title', 'Birding');
+		
+		$('.listado-imagen-taxonomica li a:contains("Cultura")').addClass('cultura icos').prop('title', 'Cultura');
+		$('.listado-imagen-taxonomica li a:contains("Culture")').addClass('cultura icos').prop('title', 'Culture');
+		
+		$('.listado-imagen-taxonomica li a:contains("Buceo")').addClass('buceo icos').prop('title', 'Buceo');
+		$('.listado-imagen-taxonomica li a:contains("Diving")').addClass('buceo icos').prop('title', 'Diving');
+		
+		$('.listado-imagen-taxonomica li a:contains("Gastronomía")').addClass('gastronomia icos').prop('title', 'Gastronomía');
+		$('.listado-imagen-taxonomica li a:contains("Gastronomy")').addClass('gastronomia icos').prop('title', 'Gastronomy');
+
+		$('.listado-imagen-taxonomica li a:contains("Culturas Vivas")').addClass('culturasvivas icos').prop('title', 'Culturas Vivas');
+		$('.listado-imagen-taxonomica li a:contains("Living Cultures")').addClass('culturasvivas icos').prop('title', 'Living Cultures');
+		
+	});
+
 })(jQuery, Drupal);
 
 
