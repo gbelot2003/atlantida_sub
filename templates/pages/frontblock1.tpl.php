@@ -15,7 +15,7 @@ if($language_content->language == "es"){
 <div class="row">		
 		<div class="large-6 small-12 columns">
 			<div class="">
-				<h2 class="front-title"><span class="explora"><?php print t("Explore") ?></span> <spen class="portal">Atlántida</spen></h2>
+				<h2 class="front-title"><span class="explora"><?php print t("Explore") ?></span> <span class="portal">Atlántida</span></h2>
 				<div>
 					<h5 class="guara"><?php print t("the <span>Hondura's</span> Caribbean") ?></h5>
 				</div>

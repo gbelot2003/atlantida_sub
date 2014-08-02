@@ -1634,7 +1634,7 @@ a.transportes {
 }
 
 .blog-slide .active .views-field-title {
-	color: red;
+	color: blue;
 }
 
 .es-ticker{
@@ -1740,6 +1740,10 @@ a.transportes {
 	background: url("../images/marca1.png") no-repeat right bottom;
 	width: 195px;
 	margin-top: -50px;
+}
+
+.single{
+	font-weight: bold;
 }
 
 .slider-name-single {

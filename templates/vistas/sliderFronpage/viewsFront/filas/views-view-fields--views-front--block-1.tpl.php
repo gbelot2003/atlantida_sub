@@ -29,7 +29,7 @@
 	<div class="slide-image">
 		<?php print $fields['field_image']->content ?>
 		<div class="slide-caption">
-			<p class="slider-name-single"><?php print $fields['title']->content ?></p>
+			<p class="slider-name-single single"><?php print $fields['title']->content ?></p>
 		</div>
 	</div>	
 </div>
