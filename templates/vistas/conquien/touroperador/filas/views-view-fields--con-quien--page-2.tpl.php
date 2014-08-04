@@ -34,7 +34,7 @@
 		width: 35px !important;
 	}
 </style>
-<div class="large-6 small-12 columns">
+<div class="large-12 small-12 columns">
 	<div class="views-row-content">
 		<div class="grid-block">
 			<div class="row">
