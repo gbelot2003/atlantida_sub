@@ -36,9 +36,6 @@
 				</div>
 			</div>	
 			<div class="large-4 columns"><?php print $fields['field_image']->content ?></div>
-			<div class="large-12 columns">
-				<p><?php print $fields['field_ref_servicios']->content ?></p>
-			</div>
 		</div>
 	</div>
 </div>

@@ -53,12 +53,42 @@
   <title><?php print $head_title; ?></title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!--<link href="https://s3-sa-east-1.amazonaws.com/canaturh/boton.css" rel="stylesheet"> -->
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<style>
 
+		*{margin:0px;padding:0px;}
+		#suggestPost
+		{
+			background: transparent url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/home_button.png") no-repeat scroll -25px 0px;
+			height: 85px;
+			left: 0;
+			position: fixed;
+			top: 220px;
+			width: 44px;
+			background-color: #000000;
+			z-index: 999;
+		}
+
+		div#suggestPost:hover
+		{
+			background-position: -9px -95px;
+			background-color: blue;
+			width: 60px;
+		}
+
+		#suggestPost a
+		{
+		  display:block;
+		  height:170px;
+		  width:40px;
+		}		
+
+	</style>
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
@@ -67,11 +97,14 @@
   <div id="preloader">
       <div id="status">&nbsp;</div>
   </div>
-  
+
+  <div id="suggestPost"><a href="http://honduras.travel"></a></div>
+	
   <div class="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
-  <?php print $page_top; ?>
+ 
+	<?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
   <?php print _zurb_foundation_add_reveals(); ?>

@@ -59,9 +59,7 @@
             <?php if ($top_bar_main_menu) :?>
               <?php print $top_bar_main_menu; ?>
             <?php endif; ?>
-            <?php if ($top_bar_secondary_menu) :?>
-              <?php print $top_bar_secondary_menu; ?>
-            <?php endif; ?>
+
             
             <?php if ($page['top_block']): ?>
             
@@ -105,13 +103,7 @@
         </nav> <!-- /#main-menu -->
       <?php endif; ?>
 
-      <?php if ($alt_secondary_menu): ?>
-        <section class="this">
-          <nav id="secondary-menu" class="navigation" role="navigation">
-            <?php print $alt_secondary_menu; ?>
-          </nav> <!-- /#secondary-menu -->
-        </section>
-      <?php endif; ?>
+
         <!-- Muestra -->
     </section>
     <?php endif; ?>

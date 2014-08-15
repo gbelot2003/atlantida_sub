@@ -17,7 +17,7 @@
 			
 			<div id="font-block-2" class="large-12 columns">
 						
-				<?php include("frontblock2.tpl.php") ?>
+				<?php include("frontblock3.tpl.php") ?>
 							
 			</div>
 			
@@ -154,7 +154,7 @@
 		</div>
 	</section>
 	<?php endif; ?>
-
+		<?php  include("modal.tpl.php"); ?>
   <!--.l-footer-->
 	  <?php include("footer.tpl.php"); ?>
   <!--/.footer-->

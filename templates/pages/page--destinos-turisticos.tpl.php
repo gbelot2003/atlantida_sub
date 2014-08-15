@@ -61,27 +61,20 @@
   </main>
   <!--/.main-->
 
-  <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
-    <!--.triptych-->
-    <section class="l-triptych row">
-      <div class="triptych-first large-4 columns">
-        <?php print render($page['triptych_first']); ?>
-      </div>
-      <div class="triptych-middle large-4 columns">
-        <?php print render($page['triptych_middle']); ?>
-      </div>
-      <div class="triptych-last large-4 columns">
-        <?php print render($page['triptych_last']); ?>
-      </div>
-    </section>
-    <!--/.triptych -->
-  <?php endif; ?>
+
   
   <?php if (!empty($page['before_footer'])): ?>   
       <div class="before-footer" role="complementary" >
         <?php print render($page['before_footer']); ?>
       </div>   
   <?php endif; ?>
+
+
+    <!--.triptych-->
+    <section class="l-triptych row">
+		<?php include("sub_slide.tpl.php") ?>
+    </section>
+    <!--/.triptych -->
 
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
