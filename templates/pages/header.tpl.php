@@ -4,7 +4,7 @@
   <!--.l-header region -->
   <header role="banner" class="l-header">
     
-      <div class="header-top hide-for-small">
+      <div class="header-top">
         <div class="row">
           <div class="large-6 columns header_top_left">
             <ul class="social-icons accent inline-list">

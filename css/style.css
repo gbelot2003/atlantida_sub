@@ -106,7 +106,21 @@
 
 
 
+
 /***********************************************************************************************/
+
+.color-6 {
+	background:white;
+}
+
+.color-6 i.fa, .top-bar-section .main-nav>li.color-6>a:not(.button).has-icon {
+	color:blue;
+}
+
+.color-6 i.fa:hover{
+	color:black;
+}
+
 
 .taxonomia {
 	display:inline;
@@ -125,29 +139,28 @@
 .canaturh {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') center left ;
 }
-
 .iht {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg') -100px -0px;
 }
-
 .usaid {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -300px -0px;
 }
-
 .nwt {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -300px -40px;
 }
-
 .imc {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -505px -0px;
 }
-
 .divesa {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -505px -51px;
 }
-
 .patrocinador {
 	background: url('https://s3-sa-east-1.amazonaws.com/canaturh/logos/logos_icos.jpg')  -680px -0px;
+}
+/**********************************************/
+
+.top-bar-section ul li:hover>a, .top-bar-section li a:not(.button):hover{
+	color:black;
 }
 
 /**********************************************/
@@ -293,7 +306,7 @@ fieldset {
 /***********************************/
 
 .node-atracciones-turisticas ul.links li {
-	
+
 }
 
 .geofieldIn .field-name-field-geolocalizacion {
@@ -599,20 +612,34 @@ fieldset {
 .alternador-de-idiomas .language-switcher-locale-url li {
 	list-style: none;
 	display: inline;
+	float:right;
 }
 
-.alternador-de-idiomas .language-switcher-locale-url a {
-	padding: 0.6rem;
-	background: rgba(77,77,255,0.8);
-	color: white;
-	font-size: 0.8rem;
+.lang-es .language-switcher-locale-url a {
+	display:block;
+	width:26px;
+	height:0px;
+	padding-top:16px;
+	overflow:hidden;
+	background:url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/lang_switcher.png") 0 32px;
 }
 
-.alternador-de-idiomas  a.active {
-	background: #ff4d4d !important;
-	font-weight: bold
+.lang-es .language-switcher-locale-url a.active {
+	background:url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/lang_switcher.png") -30px -32px;
 }
 
+.lang-en .language-switcher-locale-url a{
+	display:block;
+	width:26px;
+	height:0px;
+	padding-top:16px;
+	overflow:hidden;
+	background:url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/lang_switcher.png") 26px 32px;
+}
+
+.lang-en .language-switcher-locale-url a.active {
+	background:url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/lang_switcher.png") left 16px;
+}
 
 .circulos li {
 	display: inline;
@@ -625,6 +652,9 @@ fieldset {
 .boxes .box>a:before, .boxes .box .flipper a:before {
 	background: #553A4E;
 }
+
+
+/**************************************************/
 
 
 h4, h3, h5, .title {
@@ -642,7 +672,7 @@ h4, h3, h5, .title {
 .fixed, .fixed .top-bar {
 	background:rgb(245,245,245);
 }
-/**************** Clases Genericas *****************/
+/**************** Clases Generias *****************/
 
 
 .cuerpo {
@@ -921,7 +951,7 @@ h4, h3, h5, .title {
 .ui-tabs .ui-tabs-nav li {border-bottom: none; background-color: white !important; }
 .ui-tabs .ui-tabs-nav li a {color:black; border-radius: 5px 5px 0 0; font-size: 1em !important;}
 .ui-tabs .ui-tabs-nav li a:hover {color: red;}
-.ui-tabs .ui-tabs-nav li.ui-state-active  a {color: red; background-color:#f4fafe;}
+.ui-tabs .ui-tabs-nav li.ui-state-active  a {color: red; background-color:#E7F0D7;}
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {}
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, 
@@ -929,13 +959,13 @@ h4, h3, h5, .title {
 .ui-tabs .ui-tabs-nav li.ui-state-processing a {border-bottom: 1px solid #c0c0c0; color:red; background:#D8D0CD;}
 
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-.ui-tabs .ui-tabs-panel {background-color:#f4fafe; padding: 2em 2.4em; color:black; min-height: 26rem;} /*add responsive for heigth*/
+.ui-tabs .ui-tabs-panel {background-color:#E7F0D7; padding: 2em 2.4em; color:black; min-height: 26rem;} /*add responsive for heigth*/
 
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius:0;
 }
-	
+
 /**********************************************************************/
 
 .flex-direction-nav a:before {
@@ -1436,7 +1466,7 @@ a.transportes {
 	margin-bottom: 2rem;
 }
 
-.view-taxonomias-frontpage {
+.view-taxonomias-frontpage, .view-display-id-block_11 {
 	margin-bottom: 3rem;
 }
 .views_slideshow_cycle_main {
@@ -1494,8 +1524,8 @@ a.transportes {
 
 .icons { /** clase para icono de video */
 	position: absolute;
-	bottom: 140%;
- 	right: 40%;
+	bottom: 107px;
+ 	right: 44%;
  	font-size: 5rem;
 }
 
@@ -1734,7 +1764,7 @@ a.transportes {
 .guara span {
 	display:inline-block;
 	height:0px;
-	padding-top:100px;
+	padding-top:80px;
 	overflow:hidden;
 	background: url("../images/marca1.png") no-repeat right bottom;
 	width: 195px;
@@ -1992,8 +2022,17 @@ a.transportes {
 
 /**************** Media querys *******************/
 
-
 @media only screen and (max-width: 40em) { 
+	
+	.top-bar .name h1 a{
+		background: url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/logo3.png") no-repeat;
+	}
+	
+	.icons {
+		right:38%;
+		top:-140%;
+	}
+	
 	.l-slider {
 		display:none;
 	}
@@ -2023,12 +2062,6 @@ a.transportes {
 		margin:-10px 0px -10px 0px !important;
 	}
 
-	.slide-caption p { /** clase para caption de sliders */
- 	font-size: 1rem;
-	}
-	
-/******************************* FIX RESPONSIVE FOR IPAD - TABLET *******************************/	
-
 	.sponsor1, .sponsor2, .sponsor3 {
 	width:100%;
 	float:none;
@@ -2040,8 +2073,14 @@ a.transportes {
 	}
 }
 
+/******************************* FIX RESPONSIVE FOR IPAD - TABLET *******************************/	
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
+	.top-bar .name h1 a{
+		background: url("https://s3-sa-east-1.amazonaws.com/canaturh/logos/logo3.png") no-repeat;
+	}
+	
 	.sponsor1, .sponsor2, .sponsor3 {
 	width:100%;
 	float:none;
@@ -2060,11 +2099,9 @@ a.transportes {
 	.top-bar {
 		height: 65px;
 	}
-	
 	.top-bar .name {
 		height: 65px;
 	}
-	
 	.top-bar .name h1 a {
 		width: 15rem;
 	}
@@ -2073,11 +2110,6 @@ a.transportes {
 		margin-top: 4.5rem !important;
 	}
 }
-
-@media only screen and (min-width: 768px) and (max-width: 815px) {
-	.slide-caption p { /** clase para caption de sliders */
- 	font-size: 0.8rem;
-	}
-}
-	
 /******************************* END FIX RESPONSIVE FOR IPAD - TABLET *******************************/
+
+

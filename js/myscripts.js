@@ -74,10 +74,11 @@
 	});
 	
 	$(document).ready(function(){
+		var ids = "#ex, #des, #wi, #in, #md, #ex2, #des2, #wi2, #in2, #md2";
 		$('.lang-es .breadcrumbs a:contains("With Whom")').text("Con Quien");
 		$(".section-blog .breadcrumbs li").eq(2).remove();
 		$('.page-taxonomy-term .breadcrumbs li:contains("Taxonomias")').remove();
-		$('.has-icon').click(function(event) {event.preventDefault();});
+		$(ids).click(function(event) {event.preventDefault();console.log('click');});
 	});	
 
 	
