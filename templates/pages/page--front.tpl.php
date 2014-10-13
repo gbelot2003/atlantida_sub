@@ -2,32 +2,38 @@
     <!--/.featured -->
  
     <section class="l-featured row">
-    	   <hr style="visibility: hidden"/>
+         <hr style="visibility: hidden"/>
       <div class="large-12 columns">
         <?php print render($page['featured']); ?>
       </div>
     </section>
     <section class="l-frontpage">
-    	<div class="row">
+		<div class="row">
 			<div id="font-block-1" class="large-12 columns">
-				<?php include("frontblock1.tpl.php") ?>
+          		<?php include("frontblock1.tpl.php") ?>
+        	</div>
+		</div>
+        
+        <hr style="visibility: hidden" /> 
+		
+        <div class="row">
+        	<div id="font-block-2" class="large-12 columns">
+     			<?php include("frontblock2.tpl.php") ?>
 			</div>
-			
-			<hr />
-			
-			<div id="font-block-2" class="large-12 columns">
-						
-				<?php include("frontblock3.tpl.php") ?>
-							
+		</div>
+		
+		<hr style="visibility: hidden" /> 
+		
+        <div class="row">
+        	<div id="font-block-3" class="large-12 columns">
+				<hr style="visibility: hidden" />   
+          		<!-- Sub Slide -->
+          		<?php include("sub_slide.tpl.php") ?>
+          		<!-- Sub Slide -->
 			</div>
-			
-			<hr style="visibility: hidden" />		
-			<div id="font-block-3" class="large-12 columns">
-				<!-- Sub Slide -->
-				<?php include("sub_slide.tpl.php") ?>
-				<!-- Sub Slide -->
-			</div>
-    	</div>
+        </div>
+
+      </div>
     </section>
     <!--/.l-featured -->
   
@@ -39,14 +45,14 @@
 
 <!-- Agregamos mas bloques con el mismo estilo -->
   <?php if (!empty($page['wide_two_region'])): ?>
-	  <div class="wide-two-region">
-		  <div class="row">
-			<div class="large-12 columns">
-				<?php print render($page['wide_two_region']); ?>
-			
-		  	</div>
-		  </div>
-	  </div>
+    <div class="wide-two-region">
+      <div class="row">
+      <div class="large-12 columns">
+        <?php print render($page['wide_two_region']); ?>
+      
+        </div>
+      </div>
+    </div>
   <?php endif; ?>
 <!-- fin de wide-two -->
 
@@ -103,19 +109,24 @@
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
     <!--.triptych-->
     <section class="l-triptych row">
-      <div class="triptych-first large-4 columns">
+      
+    <div class="triptych-first large-4 columns">
         <?php print render($page['triptych_first']); ?>
       </div>
-      <div class="triptych-middle large-4 columns">
+      
+    <div class="triptych-middle large-4 columns">
         <?php print render($page['triptych_middle']); ?>
       </div>
+    
       <div class="triptych-last large-4 columns">
         <?php print render($page['triptych_last']); ?>
       </div>
-    </section>
+        
+
+  </section>
     <!--/.triptych -->
   <?php endif; ?>
-  
+
   <?php if (!empty($page['before_footer'])): ?>   
       <div class="before-footer" role="complementary" >
         <?php print render($page['before_footer']); ?>
@@ -147,18 +158,19 @@
     <!--/.footer-columns-->
   <?php endif; ?>
 
-	<?php if (!empty($page['down_menu'])): ?>
-	<section class="large-12 columns">
-		<div class="row">
-			<?php print render($page['down_menu']); ?>
-		</div>
-	</section>
-	<?php endif; ?>
-		<?php  include("modal.tpl.php"); ?>
+  <?php if (!empty($page['down_menu'])): ?>
+  <section class="large-12 columns">
+    <div class="row">
+      <?php print render($page['down_menu']); ?>
+    </div>
+  </section>
+  <?php endif; ?>
+
   <!--.l-footer-->
-	  <?php include("footer.tpl.php"); ?>
+    <?php include("footer.tpl.php"); ?>
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
+  <?php print views_embed_view('views_front', $display_id = 'block_9');  ?>
 </div>
 <!--/.page -->

@@ -2,7 +2,7 @@
 				
 				<div class="large-5 small-12 columns">
 					<div class="large-12 columns video">
-						<?php print views_embed_view('views_front', $display_id = 'block_7');  ?>
+						<?php print views_embed_view('views_front', $display_id = 'block_8');  ?>
 					</div>
 					
 					<div class="large-12 columns">

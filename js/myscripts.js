@@ -74,14 +74,12 @@
 	});
 	
 	$(document).ready(function(){
-		var ids = "#ex, #des, #wi, #in, #md, #ex2, #des2, #wi2, #in2, #md2";
 		$('.lang-es .breadcrumbs a:contains("With Whom")').text("Con Quien");
 		$(".section-blog .breadcrumbs li").eq(2).remove();
 		$('.page-taxonomy-term .breadcrumbs li:contains("Taxonomias")').remove();
-		$(ids).click(function(event) {event.preventDefault();console.log('click');});
+		//$(ids).click(function(event) {event.preventDefault();console.log('click');});
 	});	
 
-	
 	$(document).ready(function(){
 		$('.listado-imagen-taxonomica li a:contains("Aventura")').addClass('aventura icos').prop('title', 'Aventura');
 		$('.listado-imagen-taxonomica li a:contains("Adventure")').addClass('aventura icos').prop('title', 'Adventure');
@@ -110,7 +108,16 @@
 		$('.listado-imagen-taxonomica li a:contains("Culturas Vivas")').addClass('culturasvivas icos').prop('title', 'Culturas Vivas');
 		$('.listado-imagen-taxonomica li a:contains("Living Cultures")').addClass('culturasvivas icos').prop('title', 'Living Cultures');
 		
+		$('a:contains("Canaturh")').addClass('canatur');
+		$('a:contains("hopeh")').addClass('hopeh');
+		$('a:contains("opturh")').addClass('opturh');
+		$('a:contains("siccs")').addClass('siccs');
+		 
+		var ids = ".field-name-field-sellos li a, .field-name-field-sellos .field-content a";
+		$(ids).click(function(event) {event.preventDefault();console.log('click');});
 	});
+	
+	
 
 })(jQuery, Drupal);
 

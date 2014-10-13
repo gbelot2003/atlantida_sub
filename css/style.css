@@ -104,10 +104,53 @@
 
 /************************************************************************************************/
 
+ 
 
 
+/*****************************************DIVISOR******************************************************/
 
-/***********************************************************************************************/
+
+.field-name-field-sellos {
+	
+}
+
+.field-name-field-sellos li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.field-name-field-sellos a {
+	display:block;
+	width: 56px;
+	height: 0px;
+	padding-top: 58px;
+	overflow: hidden;
+}
+
+.field-name-field-sellos .field-content a {
+	float: left;
+}
+
+.canatur {
+	background: url("https://s3-sa-east-1.amazonaws.com/canaturh/sellos/seal_canaturh.png") no-repeat top center;
+}
+
+.hopeh {
+	background: url("https://s3-sa-east-1.amazonaws.com/canaturh/sellos/seal_hopeh.png") no-repeat top center;
+}
+
+.opturh{
+	background: url("https://s3-sa-east-1.amazonaws.com/canaturh/sellos/seal_opturh.png") no-repeat top center;
+}
+
+.siccs {
+	background: url("https://s3-sa-east-1.amazonaws.com/canaturh/sellos/seal_siccs.png") no-repeat top center;
+}
+
+.node-type-destinos-turisticos #fullwidth_slider {
+	margin-top:2rem;
+}
 
 .color-6 {
 	background:white;
@@ -125,8 +168,7 @@
 .taxonomia {
 	display:inline;
 	float:left;
-	width:370px;
-	max-height:320px;
+	width:33%;
 	height: 320px;
 }
 
@@ -678,7 +720,7 @@ h4, h3, h5, .title {
 .cuerpo {
 	background-color: rgba(234, 247, 255,0.5);
 	padding: 1.2rem;
-	min-height: 26.5rem; /* add responsive for height */
+	min-height: 18.5rem; /* add responsive for height */
 	margin-bottom: 1rem;
 }
 
@@ -1349,7 +1391,7 @@ select {
 
 .front-image .image img {
 	width: 35%;
-	height: 40%;
+	height: auto;
 }
 
 .view-display-id-block_1 {
@@ -1681,14 +1723,15 @@ a.transportes {
 }
 
 .blog-slide .views-content-field-fuente {
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	margin: 0.5rem 0;
-	color:red;
+	color:blue;
 }
 
 .blog-slide .views-content-body {
-	font-size: 0.7rem;
+	font-size: 1rem;
 }
+
 
 /*************************************/
 
@@ -2052,10 +2095,26 @@ a.transportes {
 		padding-left:0 !important;
 	}
 	
+	#views_slideshow_cycle_main_views_front-block_3 {
+		display:none !important;
+	}
+		
+	.section-explorar .view-display-id-attachment_1 {
+		display:none;
+	}
+
+	.section-explorar .view-display-id-attachment_2 {
+		width:100%;
+	}
+			
 	.field-type-geofield {
 		display:none;
 	}
 	
+	.taxonomia {
+		width: 100%;
+		height: auto;
+	}
 	/******* rectifica crop vista hotel ******/
 	
 	.half img {
@@ -2070,6 +2129,14 @@ a.transportes {
 
 	.premium, .lpremium, .lpremium-2, .lpremium-3, .sponsor {
 	width:100%;
+	}
+	
+	.slide-container {
+		margin-bottom: 20px;
+	}
+	
+	.guara span {
+		padding-top:100px;
 	}
 }
 
@@ -2091,6 +2158,29 @@ a.transportes {
 	width:50%;
 	}	
 	
+	.taxonomia {
+		width: 50%;
+		height: auto;
+	}	
+
+	.page-taxonomy .view-display-id-attachment_1{
+		width: 43%;
+		float: left;
+	}
+
+	.page-taxonomy .view-display-id-attachment_2{
+		width: 56%;
+		float: right;
+	}
+	
+	.top-bar .name h1 {
+		font-size: 90%;
+	}
+	
+	.leaflet-container {
+		height:324px !important;		
+	}
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
@@ -2109,7 +2199,17 @@ a.transportes {
 	.front .view-display-id-block_2 {
 		margin-top: 4.5rem !important;
 	}
+
+}
+
+@media (max-width: 767px) {
+	.leaflet-container {
+		display: none;
+	}
+	
+	.page-taxonomy .view-display-id-attachment_2{
+		width: 100%;
+	}
 }
 /******************************* END FIX RESPONSIVE FOR IPAD - TABLET *******************************/
-
 

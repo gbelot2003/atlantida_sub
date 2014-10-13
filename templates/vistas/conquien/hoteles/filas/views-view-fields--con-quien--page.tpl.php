@@ -24,7 +24,7 @@
  * @ingroup views_templates
  */
 ?>
-<div class="views-row-content">
+ <div class="views-row-content">
 	<div class="grid-block area-color-5">
 		<h4><?php print $fields['title']->content ?></h4>
 		<div class="row">
@@ -33,8 +33,11 @@
 				<div class="row">
 					<div class="large-6 columns"><?php print $fields['field_ref_destninos']->content ?></div>
 					<div class="large-6 columns"><?php print $fields['field_aprox_tarifa']->content ?></div>
+					<div class="large-12 columns">
+						<div class="field-name-field-sellos"><?php print $fields['field_sellos']->content ?></div>
+					</div>
 				</div>
-			</div>	
+			</div>	 
 			<div class="large-4 columns"><?php print $fields['field_image']->content ?></div>
 		</div>
 	</div>
